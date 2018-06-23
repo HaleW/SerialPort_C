@@ -1,0 +1,14 @@
+﻿  configPort.c
+  main.c
+c:\users\halew\source\repos\serialport_c\serialport_c\main.c(12): warning C4013: “openPort”未定义；假设外部返回 int
+c:\users\halew\source\repos\serialport_c\serialport_c\main.c(13): warning C4013: “setCommState”未定义；假设外部返回 int
+c:\users\halew\source\repos\serialport_c\serialport_c\main.c(14): warning C4013: “timeouts”未定义；假设外部返回 int
+c:\users\halew\source\repos\serialport_c\serialport_c\main.c(15): warning C4013: “purgeComm”未定义；假设外部返回 int
+c:\users\halew\source\repos\serialport_c\serialport_c\main.c(16): warning C4013: “readFile”未定义；假设外部返回 int
+  openPort.c
+  readFile.c
+c:\users\halew\source\repos\serialport_c\serialport_c\readfile.c(51): warning C4047: “return”:“char”与“char [1024]”的间接级别不同
+  正在生成代码...
+openPort.obj : error LNK2005: _dwBytesRead 已经在 configPort.obj 中定义
+readFile.obj : error LNK2005: _dwBytesRead 已经在 configPort.obj 中定义
+C:\Users\HaleW\source\repos\SerialPort_C\Debug\SerialPort_C.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

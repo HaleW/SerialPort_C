@@ -1,0 +1,4 @@
+﻿  readFile.c
+c:\users\halew\source\repos\serialport_c\serialport_c\readfile.c(62): warning C4047: “return”:“char”与“char [1024]”的间接级别不同
+c:\users\halew\source\repos\serialport_c\serialport_c\readfile.c(62): warning C4172: 返回局部变量或临时变量的地址: lpInBuffer
+  SerialPort_C.vcxproj -> C:\Users\HaleW\source\repos\SerialPort_C\x64\Debug\SerialPort_C.exe
